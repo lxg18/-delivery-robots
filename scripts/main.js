@@ -8,7 +8,7 @@ let mSize; // размер карты по ширине в пикселях
 let cageSize; // размер клетки в пикселях
 let map = []; // массив карты
 const canvas = document.querySelector(".canvas");
-const wallColor = '#557555';
+const wallColor = '#868784';
 const backColor = '#222';
 let win = {w:0, h:0}; // размеры окна
 let fpsInterval, now, then, elapsed; // для FPS
